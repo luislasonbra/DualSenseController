@@ -39,8 +39,7 @@ To use DualSenseController,
 
 ## **Features:**
 - Get Battery life status of controller.
-- Configure Controller LED to your liking.
-- Configure Controller LED Brightness to your liking.
+- Configure Controller LED and Brightness to your liking.
 - Custom Light Bar Color.
 - and many more...
 
