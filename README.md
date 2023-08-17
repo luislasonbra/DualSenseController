@@ -17,7 +17,7 @@ Emulate with the following while also getting the functionality of a DualSense C
 `Xbox360`
 
 
-Whether you're using Steam or a different platform, you will be able to use DualSenseX with all games!
+Whether you're using Steam or a different platform, you will be able to use DualSenseController with all games!
 
 Connection type supports both USB and Bluetooth with full functionality!
 
