@@ -1,0 +1,262 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0-windows7.0": {
+      "Device.Net/4.2.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Logging.Abstractions": "3.1.7"
+        },
+        "compile": {
+          "lib/netstandard2.0/Device.Net.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Device.Net.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Hid.Net/4.2.1": {
+        "type": "package",
+        "dependencies": {
+          "Device.Net": "4.2.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Hid.Net.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Hid.Net.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/3.1.7": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Nefarius.ViGEm.Client/1.21.256": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Nefarius.ViGEm.Client.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Nefarius.ViGEm.Client.dll": {}
+        }
+      },
+      "Usb.Net/4.2.1": {
+        "type": "package",
+        "dependencies": {
+          "Device.Net": "4.2.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Usb.Net.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Usb.Net.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Device.Net/4.2.1": {
+      "sha512": "7wm8ys25Jazz7bwb7jdu8UEKEQHQzMykGkpRvFo48b0ig9YsoQDaA9SrGPYlWjDZV3kXCYqWI73HVKY8oaljMg==",
+      "type": "package",
+      "path": "device.net/4.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "device.net.4.2.1.nupkg.sha512",
+        "device.net.nuspec",
+        "images/Icon.png",
+        "lib/net45/Device.Net.dll",
+        "lib/net45/Device.Net.xml",
+        "lib/netstandard2.0/Device.Net.dll",
+        "lib/netstandard2.0/Device.Net.xml",
+        "lib/uap10.0.16299/Device.Net.UWP.XML",
+        "lib/uap10.0.16299/Device.Net.UWP.dll",
+        "lib/uap10.0.16299/Device.Net.dll",
+        "lib/uap10.0.16299/Device.Net.xml"
+      ]
+    },
+    "Hid.Net/4.2.1": {
+      "sha512": "fDU8xZC4gktw1xPnK/TperpSriVjCX4hnvmkVcUOgbgCBngK/XX+P0/7tMhT0hNHzuVHbEO/0xVByIoD0pGidg==",
+      "type": "package",
+      "path": "hid.net/4.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "hid.net.4.2.1.nupkg.sha512",
+        "hid.net.nuspec",
+        "images/Icon.png",
+        "lib/net45/Hid.Net.dll",
+        "lib/net45/Hid.Net.xml",
+        "lib/netstandard2.0/Hid.Net.dll",
+        "lib/netstandard2.0/Hid.Net.xml",
+        "lib/uap10.0.16299/Hid.Net.UWP.dll",
+        "lib/uap10.0.16299/Hid.Net.UWP.xml",
+        "lib/uap10.0.16299/Hid.Net.dll",
+        "lib/uap10.0.16299/Hid.Net.xml"
+      ]
+    },
+    "Microsoft.Extensions.Logging.Abstractions/3.1.7": {
+      "sha512": "oD7LQbMuaqq/yAz8PKX0hl4+H/vDFTQHo8rxbKB36P1/bG8FG7JUVKBoHkSt1MaJUtgyiHrH1AlAhaucKUKyEg==",
+      "type": "package",
+      "path": "microsoft.extensions.logging.abstractions/3.1.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.xml",
+        "microsoft.extensions.logging.abstractions.3.1.7.nupkg.sha512",
+        "microsoft.extensions.logging.abstractions.nuspec"
+      ]
+    },
+    "Nefarius.ViGEm.Client/1.21.256": {
+      "sha512": "VJMO6hkalOZ7YdXTwcR881aTgPZlN7thEs3x6CWE/kEu7SdE5bY7QuDXkR2eqXfPAee4NrxInIAqa45PorpTsA==",
+      "type": "package",
+      "path": "nefarius.vigem.client/1.21.256",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ViGEm_Icon.png",
+        "lib/netstandard2.0/Nefarius.ViGEm.Client.dll",
+        "nefarius.vigem.client.1.21.256.nupkg.sha512",
+        "nefarius.vigem.client.nuspec"
+      ]
+    },
+    "Usb.Net/4.2.1": {
+      "sha512": "huSUIDuMMykKUlc8FRrDCx6DRJOlO4ekYsdtA7xLy/9hFJsIQRMQThqsq1MZipcxue41u7zBX3zyhhkaqbR+5A==",
+      "type": "package",
+      "path": "usb.net/4.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "images/Icon.png",
+        "lib/MonoAndroid/Usb.Net.Android.dll",
+        "lib/MonoAndroid/Usb.Net.Android.xml",
+        "lib/MonoAndroid/Usb.Net.dll",
+        "lib/MonoAndroid/Usb.Net.xml",
+        "lib/net45/Usb.Net.dll",
+        "lib/net45/Usb.Net.xml",
+        "lib/netstandard2.0/Usb.Net.dll",
+        "lib/netstandard2.0/Usb.Net.xml",
+        "lib/uap10.0.16299/Usb.Net.UWP.dll",
+        "lib/uap10.0.16299/Usb.Net.UWP.xml",
+        "lib/uap10.0.16299/Usb.Net.dll",
+        "lib/uap10.0.16299/Usb.Net.xml",
+        "usb.net.4.2.1.nupkg.sha512",
+        "usb.net.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0-windows7.0": [
+      "Device.Net >= 4.2.1",
+      "Hid.Net >= 4.2.1",
+      "Nefarius.ViGEm.Client >= 1.21.256",
+      "Usb.Net >= 4.2.1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\luislasonbra\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\luislasonbra\\source\\repos\\DualSenseController\\DualSenseController\\DualSenseController.csproj",
+      "projectName": "DualSenseController",
+      "projectPath": "C:\\Users\\luislasonbra\\source\\repos\\DualSenseController\\DualSenseController\\DualSenseController.csproj",
+      "packagesPath": "C:\\Users\\luislasonbra\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\luislasonbra\\source\\repos\\DualSenseController\\DualSenseController\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\luislasonbra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
+        "dependencies": {
+          "Device.Net": {
+            "target": "Package",
+            "version": "[4.2.1, )"
+          },
+          "Hid.Net": {
+            "target": "Package",
+            "version": "[4.2.1, )"
+          },
+          "Nefarius.ViGEm.Client": {
+            "target": "Package",
+            "version": "[1.21.256, )"
+          },
+          "Usb.Net": {
+            "target": "Package",
+            "version": "[4.2.1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

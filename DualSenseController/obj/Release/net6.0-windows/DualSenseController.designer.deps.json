@@ -1,0 +1,97 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Device.Net/4.2.1": {
+        "dependencies": {
+          "Microsoft.Extensions.Logging.Abstractions": "3.1.7"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Device.Net.dll": {
+            "assemblyVersion": "4.2.1.0",
+            "fileVersion": "4.2.1.0"
+          }
+        }
+      },
+      "Hid.Net/4.2.1": {
+        "dependencies": {
+          "Device.Net": "4.2.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Hid.Net.dll": {
+            "assemblyVersion": "4.2.1.0",
+            "fileVersion": "4.2.1.0"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/3.1.7": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "assemblyVersion": "3.1.7.0",
+            "fileVersion": "3.100.720.37108"
+          }
+        }
+      },
+      "Nefarius.ViGEm.Client/1.21.256": {
+        "runtime": {
+          "lib/netstandard2.0/Nefarius.ViGEm.Client.dll": {
+            "assemblyVersion": "1.21.256.0",
+            "fileVersion": "1.21.256.0"
+          }
+        }
+      },
+      "Usb.Net/4.2.1": {
+        "dependencies": {
+          "Device.Net": "4.2.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Usb.Net.dll": {
+            "assemblyVersion": "4.2.1.0",
+            "fileVersion": "4.2.1.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Device.Net/4.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7wm8ys25Jazz7bwb7jdu8UEKEQHQzMykGkpRvFo48b0ig9YsoQDaA9SrGPYlWjDZV3kXCYqWI73HVKY8oaljMg==",
+      "path": "device.net/4.2.1",
+      "hashPath": "device.net.4.2.1.nupkg.sha512"
+    },
+    "Hid.Net/4.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fDU8xZC4gktw1xPnK/TperpSriVjCX4hnvmkVcUOgbgCBngK/XX+P0/7tMhT0hNHzuVHbEO/0xVByIoD0pGidg==",
+      "path": "hid.net/4.2.1",
+      "hashPath": "hid.net.4.2.1.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging.Abstractions/3.1.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oD7LQbMuaqq/yAz8PKX0hl4+H/vDFTQHo8rxbKB36P1/bG8FG7JUVKBoHkSt1MaJUtgyiHrH1AlAhaucKUKyEg==",
+      "path": "microsoft.extensions.logging.abstractions/3.1.7",
+      "hashPath": "microsoft.extensions.logging.abstractions.3.1.7.nupkg.sha512"
+    },
+    "Nefarius.ViGEm.Client/1.21.256": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VJMO6hkalOZ7YdXTwcR881aTgPZlN7thEs3x6CWE/kEu7SdE5bY7QuDXkR2eqXfPAee4NrxInIAqa45PorpTsA==",
+      "path": "nefarius.vigem.client/1.21.256",
+      "hashPath": "nefarius.vigem.client.1.21.256.nupkg.sha512"
+    },
+    "Usb.Net/4.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-huSUIDuMMykKUlc8FRrDCx6DRJOlO4ekYsdtA7xLy/9hFJsIQRMQThqsq1MZipcxue41u7zBX3zyhhkaqbR+5A==",
+      "path": "usb.net/4.2.1",
+      "hashPath": "usb.net.4.2.1.nupkg.sha512"
+    }
+  }
+}
