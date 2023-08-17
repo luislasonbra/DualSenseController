@@ -25,8 +25,8 @@ Connection type supports both USB and Bluetooth with full functionality!
 
 To use DualSenseController,
 
-* Download the **DualSenseController** in Assets from the [latest release](https://github.com/luislasonbra/DualSenseController/releases/latest).  
-    * To open, double-click `DualSenseController.exe`.
+* Download the **DualSenseController_v0.1.1-r5.zip** in Assets from the [latest release](https://github.com/luislasonbra/DualSenseController/releases/latest).  
+    * To Extract file, double-click `DualSenseController.exe`.
 
 * Very important and required get ViGEmBus Driver:
     * Download the latest `ViGEmBus` drivers from the [ViGEmBus release page](https://github.com/ViGEm/ViGEmBus/releases/latest).  
