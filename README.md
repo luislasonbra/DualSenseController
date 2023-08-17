@@ -46,3 +46,16 @@ To use DualSenseController,
 # Donation
 If you like my work and want to support future projects, you can make a donation:
 - via [Paypal](https://www.paypal.com/donate/?hosted_button_id=QEMXHPY5LG4AQ)
+
+
+# Acknowledgement and Reference
+This App would not be possible without:
+* [ViGEmBus](https://github.com/ViGEm/ViGEmBus)
+* [ViGEm.NET](https://github.com/ViGEm/ViGEm.NET)
+* [Device.Net](https://github.com/MelbourneDeveloper/Device.Net)
+* [BLE Inputs](https://gist.github.com/Ryochan7/91a9759deb5dff3096fc5afd50ba19e2)
+* [DualSense-Windows](https://github.com/Ohjurot/DualSense-Windows)
+* [DualSenseSupport](https://github.com/Mxater/DualSenseSupport)
+* [DualSenseAPI](https://github.com/BadMagic100/DualSenseAPI)
+
+I thank all of you!
