@@ -307,7 +307,7 @@ namespace DualSenseController
 		private void updateState()
 		{
 			isConnected = !isConnected;
-			btn_connection_disconnection.Text = isConnected ? "Disconect" : "Connect";
+			btn_connection_disconnection.Text = isConnected ? "Disconnect" : "Connect";
 		}
 
 		private void UpdateDisplayDevices()
