@@ -1,5 +1,5 @@
 # DualSenseController
-Easy and Fast
+Emulate Xbox 360 Controller while also getting the functionality of a DualSense Controller
 
 ## **Screenshot:**
 ![Screenshot 2023-08-16](preview.png)
