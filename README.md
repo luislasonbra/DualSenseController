@@ -1,11 +1,11 @@
 # DualSenseController
 Easy and Fast
 
-# Preview
-![](preview.png)
-![](preview2.png)
-![](preview3.png)
-![](preview4.png)
+## **Screenshot:**
+![Screenshot 2023-08-16](preview.png)
+![Screenshot 2023-08-16](preview2.png)
+![Screenshot 2023-08-16](preview3.png)
+![Screenshot 2023-08-16](preview4.png)
 
 # About App
 ### App only works with the `PS5 Controller DualSense`
