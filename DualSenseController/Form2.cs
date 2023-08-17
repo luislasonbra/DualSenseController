@@ -16,6 +16,7 @@ using DualSenseController.dualsense2.virtual_control;
 
 namespace DualSenseController
 {
+	// https://hardwaretester.com/gamepad
 	public partial class Form2 : Form
 	{
 		// Controller
