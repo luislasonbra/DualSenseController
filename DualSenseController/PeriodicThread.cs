@@ -63,11 +63,7 @@ namespace DualSenseController
                 }
 
                 // fixed cpu usage
-				try
-                {
-					Thread.Sleep(2);
-				}
-                catch { }
+                try { Thread.Sleep(2); } catch { }
 			}
         }
     }

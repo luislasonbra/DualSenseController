@@ -13,9 +13,16 @@ namespace DualSenseController
 {
 	public partial class About : Form
 	{
+		public static string _aboutVersion = "v0.1.1-r6";
+
 		public About()
 		{
 			InitializeComponent();
+		}
+
+		private void About_Load(object sender, EventArgs e)
+		{
+			label2.Text = _aboutVersion;
 		}
 
 		private void lkl_luislasonbra_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
