@@ -58,6 +58,7 @@
 			// 
 			// btn_connection_disconnection
 			// 
+			btn_connection_disconnection.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
 			btn_connection_disconnection.Location = new Point(351, 190);
 			btn_connection_disconnection.Name = "btn_connection_disconnection";
 			btn_connection_disconnection.Size = new Size(75, 29);
@@ -68,6 +69,7 @@
 			// 
 			// groupBox2
 			// 
+			groupBox2.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
 			groupBox2.BackColor = Color.Transparent;
 			groupBox2.Controls.Add(btn_refresh_devices);
 			groupBox2.Controls.Add(cb_devices);
@@ -82,7 +84,7 @@
 			// 
 			btn_refresh_devices.Anchor = AnchorStyles.Top | AnchorStyles.Right;
 			btn_refresh_devices.Image = Properties.Resources.Refresh_16x;
-			btn_refresh_devices.Location = new Point(384, 20);
+			btn_refresh_devices.Location = new Point(384, 22);
 			btn_refresh_devices.Name = "btn_refresh_devices";
 			btn_refresh_devices.Size = new Size(24, 24);
 			btn_refresh_devices.TabIndex = 4;
@@ -244,6 +246,7 @@
 			// 
 			// groupBox4
 			// 
+			groupBox4.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
 			groupBox4.BackColor = Color.Transparent;
 			groupBox4.Controls.Add(btn_lightbar_color);
 			groupBox4.Location = new Point(238, 82);
