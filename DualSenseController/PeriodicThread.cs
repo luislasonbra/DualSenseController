@@ -61,7 +61,14 @@ namespace DualSenseController
                         callback.Invoke();
                     }
                 }
-            }
+
+                // fixed cpu usage
+				try
+                {
+					Thread.Sleep(2);
+				}
+                catch { }
+			}
         }
     }
 }

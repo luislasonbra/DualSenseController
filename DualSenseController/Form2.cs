@@ -368,6 +368,8 @@ namespace DualSenseController
 						DisconnectDevice();
 						// update
 						updateState();
+						// update buttons state
+						checkButtonState();
 					}
 				}
 
