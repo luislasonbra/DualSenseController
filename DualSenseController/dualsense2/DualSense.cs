@@ -81,7 +81,7 @@ namespace DualSenseController.dualsense2
 				isWorkedThread = false;
 				// invoke event
 				if (OnStatePolled != null) OnStatePolled.Invoke(this);
-			}, 2, true).Start();
+			}, 0, true).Start();
 		}
 
 		public async Task<DualSenseInputState> ReadWriteOnceAsync()
